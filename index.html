@@ -4,51 +4,55 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Студия</title>
+        <title>WebStudio</title>
     </head>
     <body>
-<!--Верхняя линия-->
+    <!--Верхняя линия-->
 <header>
     <a href="/">WebStudio</a>
         <nav>
-            <ul>
-                <li><a href="/Студия">Студия</a></li> 
-                <li><a href="./Портфолио">Портфолио</a></li>
-                <li><a href="/Контакты">Контакты</a></li>
+            <ul class="header-list">
+                <li><a href="" class="header-link">Студия</a></li> 
+                <li><a href="" class="header-link">Портфолио</a></li>
+                <li><a href="" class="header-link">Контакты</a></li>
             </ul>
         </nav>
             <p><a>г. Киев, пр-т Леси Украинки, 26</a></p>
-            <ul>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="+380991111111">+38 099 111 11 11</a></li>
+            <ul>                                                                            
+                <li><a href="mailto:info@example.com">info@example.com</a></li>         
+                <li><a href="+380991111111">+38 099 111 11 11</a></li>  
             </ul>
 </header>
+    <!--Czapka--> 
 <main>
-<!--Czapka-->        
-    <h1>Эффективные решения для вашего бизнеса</h1>
-         <button type="button">Заказать услугу</button>
-<!--Особенности-->
-    <ul>
+<section class="hero">
+    <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+         <button class="hero-btn btn" type="button">Заказать услугу</button>
+</section>
+    <!--Особенности-->
+<section class="Features">
+    <ul class="Features-list">
         <li>
-            <p>Внимание к деталям </p> 
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <p class="service-subtitle">Внимание к деталям</p> 
+            <p class="service-list-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
         </li>
         <li>
-            <p>Пунктуальность</p>
-            <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+            <p class="service-subtitle">Пунктуальность</p>
+            <p class="service-list-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
         </li>
         <li>
-            <p>Планирование</p>
-            <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+            <p class="service-subtitle">Планирование</p>
+            <p class="service-list-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
         </li>
         <li>
-            <p>Современные технологии</p>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            <p class="service-subtitle">Современные технологии</p>
+            <p class="service-list-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
     </ul> 
-<!-- Чем мы занимаемся -->
-<h2 class="title">Чем мы занимаемся</h2>
-    <ul>
+</section>    
+    <!-- Чем мы занимаемся -->
+<h2 class="about-title title">Чем мы занимаемся</h2>
+    <ul class="about-list">
         <li>
             <img src="./images/box1.jpg" alt="Sprawdza kod" width="370"/>
         </li>
@@ -59,32 +63,32 @@
             <img src="./images/box3.jpg" alt="Zestawienie kolorów" width="370"/>
         </li>
     </ul>
-<!-- Figure -->
-    <h2>Наша команда</h2>
-    <ul>
+    <!-- Figure -->
+    <h2 class="about-title title">Наша команда</h2>
+    <ul class="about-list">
         <li>
             <img src="./images/Игорь_Демьяненко.jpg" alt="Product Designer" width="810">
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p> 
+            <h3 class="about-name">Игорь Демьяненко</h3>
+            <p class="about-position">Product Designer</p> 
         </li>
         <li>
             <img src="./images/Ольга_Репина.jpg" alt="Frontend Developer" width="810">
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="about-name">Ольга Репина</h3>
+            <p class="about-position">Frontend Developer</p>
         </li>
         <li>
             <img src="/images/Николай_Тарасов.jpg" alt="Marketing" width="810">
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="about-name">Николай Тарасов</h3>
+            <p class="about-position">Marketing</p>
         </li>
         <li>
             <img src="/images/Михаил_Ермаков.jpg" alt="UI Designer" width="810">
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="about-name">Михаил Ермаков</h3>
+            <p class="about-position">UI Designer</p>
         </li>
     </ul>
 </main>    
-<!-- Подвал -->
+    <!-- Подвал -->
          <footer>
         <a href="/">WebStudio</a>
             <address>
