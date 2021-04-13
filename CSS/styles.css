@@ -1,0 +1,18 @@
+:root {
+  --main-text-color: #orange;
+}
+.header-link {
+  color: brown;
+}
+.header-list {
+  color: brown;
+}
+
+.service-subtitle {
+  color: chartreuse;
+}
+
+.box {
+  color: coral;
+  text-align: center;
+}
